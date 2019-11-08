@@ -1,0 +1,64 @@
+main#h-news {
+  width: 100%;
+  height: 100%;
+  background: #fff url('../images/index/page3bg.png') no-repeat 95% 4%;
+  background-size: 49rem 24.3rem;
+}
+#h-news article {
+  width: 100%;
+  height: 100%;
+}
+#h-news section {
+  padding: 4rem 18rem 2rem;
+  font-family:Alibaba PuHuiTi;
+  font-weight:400;
+}
+#h-news section > p{
+  margin: 1.5rem;
+  font-size:.8rem;
+  color:rgba(51,51,51,1);
+  line-height:1.5rem;
+  letter-spacing: .1rem
+}
+#h-news .h-title {
+  font-size:2rem;
+  color:rgba(0,0,0,1);
+  letter-spacing: .2rem;
+  padding:1.5rem
+}
+#h-news .h-source {
+  height: 3rem;
+  font-size:.9rem;
+  color:rgba(125,125,125,1);
+  border-bottom: 1px solid rgba(229,229,229,1); 
+  border-top: 1px solid rgba(229,229,229,1); 
+  line-height: 3rem;
+  letter-spacing: .1rem;
+  padding-left: 1.5rem
+}
+#h-news footer {
+  margin: 1rem 1.5rem 0;
+  font-size:.7rem;
+  font-family:Alibaba PuHuiTi;
+  font-weight:400;
+  color:rgba(255,129,129,1);
+}
+#h-news footer >p:nth-of-type(1){
+  background:rgba(255,255,255,1);
+  border:1px solid rgba(255,101,113,1);
+  border-radius:10px;
+}
+#h-news footer >p:nth-of-type(1)> span {
+  display: inline-block;
+  padding: 1rem .7rem;
+  text-indent: 1.4rem;
+}
+#h-news footer >p:nth-of-type(2) {
+  margin: 1rem 0;
+}
+#h-news footer >p:nth-of-type(2) > a {
+  text-decoration: underline;
+}
+.h-news_1,.h-news_2, .h-news_3, .h-news_4, .h-news_5, .h-news_6, .h-news_7, .h-news_8, .h-news_9, .h-news_10 {
+  display: none
+}

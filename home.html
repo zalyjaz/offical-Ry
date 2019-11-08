@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <meta name="”renderer”" content="”webkit”">
+    <meta name="keywords" content="产品服务，融易科技，RongYI, RongYI官网, Agents, Broker, Decision" />
+    <title>融易科技·科技助力金融</title>
+    <link rel="stylesheet" href="css/font.css" media="all">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/style.bundle.css">
+    <link rel="stylesheet" href="css/home.css">
+  </head>
+
+  <body>
+      <my-loading ng-version="5.2.9">
+          <div class="loading loading_active">
+              <div class="loading__flow">
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+                  <span class="loading__flow__item"></span>
+              </div>
+          </div>
+      </my-loading>
+      <div class="titleBox first">TAKE A DEEP BREATH</div>
+      <div class="titleBox two">HAVE A NICE FLIGHT</div>
+      <div id="content" class="indexBox">
+        <iframe src="index.html" height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
+      </div>
+  </body>
+
+</html>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+  $(function(){
+    setTimeout(function(){
+      $('.loading_active').remove();
+    },8000);
+    $('.loading').click(function(){
+        $('.titleBox').css('display','none');
+        $('#content').removeClass('indexBox');
+        $('#content').addClass('imShow');
+        setTimeout(function(){
+          $('.loading_active').remove();
+        },1000);
+        
+        console.log(1);
+    });
+    $('.titleBox').click(function(){
+        $('.titleBox').css('display','none');
+        $('#content').removeClass('indexBox');
+        $('#content').addClass('imShow');
+        setTimeout(function(){
+          $('.loading_active').remove();
+        },1000);
+        console.log(2);
+    });
+  });
+</script>
